@@ -1,0 +1,33 @@
+{
+  "title": "元件總表",
+  "output": "src/ui/CATALOG.md",
+  "variantsDir": "src/ui/variants",
+  "baseVariant": "base",
+  "variants": [
+    { "id": "base", "name": "基本款" },
+    { "id": "ocean", "name": "海洋" },
+    { "id": "paper", "name": "紙本" }
+  ],
+  "extensions": [".tsx", ".jsx", ".vue", ".svelte"],
+  "sourceDirs": ["src"],
+  "nullPattern": "=\\s*\\(\\)\\s*=>\\s*null",
+  "objects": {
+    "Avatar": {
+      "name": "頭像",
+      "use": "顯示使用者或角色的地方：頁首、留言、設定頁。尺寸 sm／md。",
+      "example": "const { Avatar } = useVariant();\n<Avatar size=\"md\" name={user.name} />"
+    },
+    "Divider": {
+      "name": "分隔線",
+      "use": "區塊與區塊之間。不要用 <hr> 或 border 自己畫。"
+    },
+    "EmptyState": {
+      "name": "空狀態",
+      "use": "整頁或整個清單沒有內容時，放在說明文字上方。搜尋沒結果不用。"
+    }
+  },
+  "shared": [
+    { "name": "顏色", "how": "只用設計變數，例如 var(--color-accent)，不寫色碼。" },
+    { "name": "圓角", "how": "var(--radius-sm)、var(--radius-md)。" }
+  ]
+}

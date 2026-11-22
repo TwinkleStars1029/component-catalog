@@ -1,0 +1,12 @@
+{
+  "name": "clinic-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

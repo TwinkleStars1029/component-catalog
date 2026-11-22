@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: adopt-new-react-blog
+expected_outcome: |
+  專案裡建立了「物件 × 主題」的結構：頭像與空狀態各有共用介面，基本款加上至少一個主題資料夾，頁面改成透過共用取用方式使用它們。
+  有一個從程式碼自動產生的元件總表，並在 package.json 加了產生與檢查的指令，檢查會在總表過期時失敗，且接進測試或類似的檢查流程。
+  有給 AI 讀的專案說明（例如 CLAUDE.md），要求做畫面前先查總表、用現成元件、找不到先問。
+context:
+  scaffold_script: place-files.sh

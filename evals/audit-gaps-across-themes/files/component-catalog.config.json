@@ -1,0 +1,45 @@
+{
+  "title": "元件總表",
+  "output": "src/ui/CATALOG.md",
+  "variantsDir": "src/ui/variants",
+  "baseVariant": "base",
+  "variants": [
+    {
+      "id": "base",
+      "name": "基本款"
+    },
+    {
+      "id": "forest",
+      "name": "森林"
+    },
+    {
+      "id": "retro",
+      "name": "復古"
+    }
+  ],
+  "extensions": [
+    ".tsx"
+  ],
+  "sourceDirs": [
+    "src"
+  ],
+  "nullPattern": "=\\s*\\(\\)\\s*=>\\s*null",
+  "objects": {
+    "Avatar": {
+      "name": "頭像",
+      "use": "頁首與留言的使用者頭像。"
+    },
+    "Divider": {
+      "name": "分隔線",
+      "use": "區塊之間的分隔。"
+    },
+    "EmptyState": {
+      "name": "空狀態",
+      "use": "清單整個沒有內容時。"
+    },
+    "Sparkle": {
+      "name": "點綴",
+      "use": "小裝飾。"
+    }
+  }
+}

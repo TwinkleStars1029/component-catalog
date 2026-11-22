@@ -1,0 +1,10 @@
+{
+  "name": "shop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/catalog.mjs",
+    "catalog:check": "node scripts/catalog.mjs --check",
+    "test": "vitest run && npm run catalog:check"
+  }
+}

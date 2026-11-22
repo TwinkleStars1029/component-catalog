@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: inventory-single-style-site
+expected_outcome: |
+  沒有修改專案程式碼，回報包含盤點結果與導入計畫。
+  盤點指出 UserAvatar 與 ProfilePic 是重複的頭像元件、OldBanner 沒有任何地方使用、多個頁面各自手寫分隔線與「沒有資料」的空狀態。
+  計畫包含：把挑選的物件放進統一結構（單一風格也適用）、從程式碼自動產生元件總表、總表過期時讓檢查失敗並接進測試、在給 AI 的專案說明寫入「先查總表、用現成元件、找不到先問」的規則。
+  計畫建議一次只搬幾個物件，並請使用者挑選先納管哪些。
+context:
+  scaffold_script: place-files.sh
